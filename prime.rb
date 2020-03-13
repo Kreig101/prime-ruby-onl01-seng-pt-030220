@@ -8,6 +8,8 @@ def prime?(num)
  elsif num < 2 
   false
 elsif  (2..num-1).to_a.each {|x| return false if num % x == 0}
+elsif num == 2
+  true
 else
   true
 
