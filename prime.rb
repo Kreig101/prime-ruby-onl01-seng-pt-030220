@@ -9,8 +9,8 @@ def prime?(num)
   false
  elsif num == 2
   true
-elsif num.each 2..num-1 {|x| return false if num % == 0}
-            num % 2 
+elsif num.each (2..num-1).to_a.each {|x| return false if num % == 0}
+        
 
 end
 end
