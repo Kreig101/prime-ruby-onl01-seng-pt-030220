@@ -4,7 +4,7 @@ require 'pry'
 
 def prime?(num)
 # num.split.each do |x|
- if !num.interger?
+ if !num.integer?
   false
  elsif num < 2 
   false
