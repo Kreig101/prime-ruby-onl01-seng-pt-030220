@@ -9,9 +9,9 @@ def prime?(num)
   false
 # elsif num == 2
 #   true
- elsif  (2..num-1).to_a.all? {|x| num < 2 % x != 0}
- else
-  true
+ else  (2..num-1).to_a.all? {|x| num % x != 0}
+# else
+#   true
 
 end
 end
